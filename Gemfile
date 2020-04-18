@@ -26,6 +26,12 @@ gem 'rails_12factor'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+group :assets do
+  gem 'uglifier'
+  gem 'coffee-rails'
+  gem 'therubyracer'
+end
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
